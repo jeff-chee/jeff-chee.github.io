@@ -392,6 +392,21 @@ body {
     /* color: #c8c8c8; */
 }
 
+/* ticket */
+.section-ticket {
+    background: #fff;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.section-ticket .content-holder {
+    margin-bottom: 0;
+}
+
+.section-ticket .btn-link {
+    margin-bottom: 10px;
+}
+
 .ticket-box {
     text-align: center;
     padding: 20px;
