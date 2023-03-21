@@ -80,6 +80,7 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 0.225em;
+    font-family: "Roboto";
 }
 
 /* Hero */
@@ -456,21 +457,22 @@ body {
 
 /* Other Way */
 .section-other-ways {
-    background: linear-gradient(to bottom, #1c92d2 0%, #f2fcfe 100%);
+    background: linear-gradient(to bottom, #1c92d2 60%, #f2fcfe 100%);
 }
 
 .section-other-ways .full-title {
-    text-align: left;
     letter-spacing: 1.2px;
+    text-align: center;
+    font-family: "Roboto";
 }
 
 .section-other-ways .full-subtitle {
-    text-align: left;
     font-size: 16px;
     padding: 20px 20px 0 20px;
     font-weight: 500;
     letter-spacing: 1.2px;
     font-family: "Roboto";
+    text-align: center;
 }
 
 .section-double-impact .btn-link {
@@ -481,6 +483,9 @@ body {
     margin-bottom: 20px;
 }
 
+/* .section-linear-wrap {
+    background-image: linear-gradient(to bottom, #09203f 0%, #537895 10%, #fff 30%, #000C40 32%, #076585 50%, #f2fcfe 60%, #000C40 62%, #076585 90%, #f2fcfe 100%);
+} */
 /* Founder story */
 .section-founder-story {
     background-image: linear-gradient(to bottom, #09203f 0%, #537895 90%, #fff 100%);
@@ -542,6 +547,7 @@ body {
 
 .section-patient .special-title {
     letter-spacing: 0.2em;
+    font-family: "Roboto";
 }
 
 .patient-bg {
@@ -612,6 +618,7 @@ body {
     /* background-color: #FCFCFC; */
     color: #000;
     text-align: center;
+    border-top: 1px solid #eee;
 }
 
 .footer .w-container {
@@ -774,5 +781,13 @@ body {
     .explain-box {
         display: flex;
         flex-direction: column;
+    }
+
+    .section-other-ways .full-title {
+        text-align: center;
+    }
+    
+    .section-other-ways .full-subtitle {
+        text-align: left;
     }
 }
