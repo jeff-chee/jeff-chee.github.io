@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: rgb(25, 35, 62);
+    background-color: rgb(17, 29, 63);
     color: #fff;
 }
 
@@ -45,6 +45,12 @@ body {
 
 .small-lp {
     letter-spacing: 1.1px!important;
+}
+
+.btn-yellow {
+    background: #F9E08C!important;
+    border: 2px solid #F9E08C!important;
+    color: rgb(25, 35, 62)!important;
 }
 
 /* Title */
@@ -162,7 +168,7 @@ body {
     width: 90%;
     max-width: 940px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .main-subtitle {
@@ -310,7 +316,7 @@ body {
 }
 
 .text-block {
-    color: #333;
+    color: rgb(17, 29, 63);
     font-size: 4.5em;
     line-height: 1;
 }
@@ -322,7 +328,7 @@ body {
 }
 
 .timer-label {
-    color: #333;
+    color: rgb(250, 180, 40);
 }
 
 .btn-link,
@@ -395,12 +401,21 @@ body {
 
 .explain-box .item .img-box {
     text-align: center;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 .explain-box .item .img-box img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    transform: scale(2);
+}
+
+.explain-box .item.step-2-img .img-box img {
+    transform: scale(2.5);
 }
 
 .explain-box .feature-title {
@@ -492,7 +507,7 @@ body {
 } */
 /* Founder story */
 .section-founder-story {
-    background-image: linear-gradient(to bottom, #09203f 0%, #537895 90%, #fff 100%);
+    background-image: linear-gradient(to bottom, #09203f 0%, #537895 97%, #fff 100%);
     padding-bottom: 20px;
 }
 
@@ -539,7 +554,7 @@ body {
 .section-struggle, .section-never-give-up {
     /* background: linear-gradient(to bottom, #076585 0%, #fff 100%); */
     /* background: linear-gradient(to bottom, #000C40 0%, #537895 90%, #fff 100%); */
-    background: linear-gradient(to bottom, #000C40 0%, #076585 90%, #f2fcfe 100%);
+    background: linear-gradient(to bottom, #000C40 0%, #076585 97%, #f2fcfe 100%);
 }
 
 .content-box {
@@ -565,6 +580,22 @@ body {
 }
 
 /* TC */
+.paragraph {
+    overflow: auto;
+    height: auto;
+    margin-top: 19px;
+    padding-top: 0px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.paragraph.tc {
+    font-size: 12px;
+    line-height: 24px;
+}
+
 .section-bottom {
     background-color: #F2F5FF;
     border-top: 1px solid #777;
@@ -586,7 +617,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     /* background-color: #FCFCFC; */
-    color: #777;
+    color: #0d1d41;
     line-height: 30px;
     text-align: left;
     font-size: 14px;
@@ -793,5 +824,13 @@ body {
     
     .section-other-ways .full-subtitle {
         text-align: left;
+    }
+
+    .section-founder-story {
+        background-image: linear-gradient(to bottom, #09203f 0%, #537895 90%, #fff 100%);
+    }
+
+    .section-struggle, .section-never-give-up {
+        background-image: linear-gradient(to bottom, #000C40 0%, #076585 90%, #f2fcfe 100%);
     }
 }
