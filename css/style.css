@@ -632,7 +632,7 @@ body {
     justify-content: center;
 }
 
-.section-showcase .holder-bottom {
+.section-showcase .holder-bottom .right {
     order: 2;
 }
 
