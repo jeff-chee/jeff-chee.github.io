@@ -1,3 +1,34 @@
+$(document).ready(function () {
+    // $(window).scroll(function() {
+    //     if ($(window).scrollTop() > 300) {
+    //         $('.buttonToTop').addClass('show');
+    //     } else {
+    //         $('.buttonToTop').removeClass('show');
+    //     }
+    // });
+    
+    $('.buttonToTop').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+    });
+
+    $('.up-button').click(function() {
+	  
+        $(".menu").slideToggle();
+        $("body").toggleClass('menu-open');
+      
+    });
+
+    $(".menu-nav").click(function(e) {
+        e.preventDefault();
+        var thisType = $(this).data("type");
+        $('html, body').animate({
+            scrollTop: $(`#${thisType}`).offset().top
+        }, 2000);
+    });
+});
+
+
 // // Countdown Timer
 (function() {
 
