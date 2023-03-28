@@ -285,7 +285,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     color: #0D1D41;
-    font-size: 20px;
+    font-size: clamp(20px, 3vw, 25px);
     margin-top: 0;
 }
 
