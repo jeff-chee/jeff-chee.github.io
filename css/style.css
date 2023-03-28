@@ -929,7 +929,7 @@ body {
 /* Topbar */
 .topbar-container {
     padding: 10px 0;
-    background: rgba(119, 119, 119, .4);
+    background: rgba(0, 0, 0, .2);
     /* background: #120E16; */
     position: fixed;
     top: 0;
