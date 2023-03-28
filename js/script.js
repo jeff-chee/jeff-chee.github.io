@@ -26,6 +26,15 @@ $(document).ready(function () {
             scrollTop: $(`#${thisType}`).offset().top
         }, 2000);
     });
+
+    $(".section-banner .banner-list").slick({
+        prevArrow: false,
+        nextArrow: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        adaptiveHeight: false
+    });
 });
 
 
