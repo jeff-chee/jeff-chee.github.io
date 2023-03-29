@@ -35,6 +35,13 @@ $(document).ready(function () {
         dots: true,
         adaptiveHeight: false
     });
+
+    $(document).on("click", ".giveback-sc", function() {
+        // var thisType = $(this).data("type");
+        $('html, body').animate({
+            scrollTop: $(`.section-entries`).offset().top
+        }, 2000);
+    })
 });
 
 
