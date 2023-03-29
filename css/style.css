@@ -680,6 +680,11 @@ body {
 }
 
 /* R4 */
+.section-seeing {
+    background: #fff;
+    color: #0D1D41;
+}
+
 .section-seeing .holder-top {
     flex-direction: column;
 }
