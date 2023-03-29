@@ -442,17 +442,17 @@ body {
 .vote-options li a:hover,
 .vote-options li a:focus {
     text-decoration: none;
-    width: 70px;
+    /* width: 70px; */
     height: 80px;
-    /* overflow: visible; */
+    overflow: visible;
 }
 
 .vote-options li img {
     width: 100%;
     transition: transform .5s ease-in-out;
     height: 100%;
-    /* object-fit: cover;
-    overflow: visible; */
+    object-fit: cover;
+    /* overflow: visible; */
 }
 
 .vote-options li:hover img {
