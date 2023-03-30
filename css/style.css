@@ -627,6 +627,34 @@ body {
     margin-bottom: 20px;
 }
 
+
+.section-video .content-holder {
+    padding-top: 0;
+}
+
+.section-video hr {
+    margin: initial;
+    width: 100%;
+    color: #0D1D41;
+    margin-bottom: 40px;
+}
+
+.section-video .video-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    padding-top: 56.17021276595745%;
+}
+
+.section-video .video-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 /* .section-linear-wrap {
     background-image: linear-gradient(to bottom, #09203f 0%, #537895 10%, #fff 30%, #000C40 32%, #076585 50%, #f2fcfe 60%, #000C40 62%, #076585 90%, #f2fcfe 100%);
 } */
